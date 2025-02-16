@@ -1,3 +1,4 @@
+"use client"
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import  cartSlice  from '@/app/redux/features/cart'
 import storage  from 'redux-persist/lib/storage';
